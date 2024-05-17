@@ -9,3 +9,31 @@ color_scheme: dark
 
 aux_links:
   PoleFX Home: https://polefx.com
+
+# Define navigation structure
+collections:
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: "default"
+      navigation:
+        - title: "Home"
+          url: /
+        - title: "Playback Modes"
+          url: /playback-modes
+        - title: "Pattern Info"
+          url: /pattern-info
+        - title: "Custom Patterns"
+          url: /custom-patterns
+        - title: "Control Modes"
+          url: /control-modes
+          children:
+            - title: "DMX"
+              url: /dmx
+            - title: "Keyboard"
+              url: /keyboard
