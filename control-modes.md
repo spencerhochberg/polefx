@@ -7,10 +7,10 @@ layout: default
 
 Overview of the different control modes.
 
-## [DMX](dmx.md)
+## [DMX](dmx.html)
 
 Details about DMX control mode.
 
-## [Keyboard](keyboard.md)
+## [Keyboard](keyboard.html)
 
 Details about keyboard control mode.

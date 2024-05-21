@@ -1,6 +1,7 @@
 ---
 title: Pattern Info
 layout: default
+parent: Patterns
 ---
 
 # Pattern Info

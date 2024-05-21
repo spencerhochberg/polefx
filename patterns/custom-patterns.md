@@ -1,6 +1,8 @@
 ---
 title: Custom Patterns
 layout: default
+parent: Patterns
+
 ---
 
 # Custom Patterns
