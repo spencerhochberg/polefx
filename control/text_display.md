@@ -1,6 +1,7 @@
 ---
 title: Control Modes
 layout: default
+parent: Control
 ---
 
 # Control Modes

@@ -1,7 +1,8 @@
 ---
-title: Patterns
+title: Wi-Fi
 layout: default
-has_children: true
+parent: Network
+grand_parent: Control
 ---
 
 # Patterns

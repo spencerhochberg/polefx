@@ -4,47 +4,20 @@ layout: home
 nav_order: 0
 ---
 
-# Welcome to [Your Product Name] Documentation
+# Welcome to PoleFX Documentation
 
-Welcome to the official documentation for **[Your Product Name]**. This guide will help you set up, use, and understand our product.
+This guide will help you set up, use, and understand our LED dance pole system.
 
-## Quick Start
+## System Overview
 
-Get started quickly with these simple steps:
+The PoleFX System consists of two main components:
 
-1. **Installation**: Learn how to install our product.
-2. **Configuration**: Understand how to configure the product to suit your needs.
-3. **Basic Usage**: Dive into the basic operations and functionalities.
+1. **PoleFX Player**: A small device that hosts a server for controlling the LED poles.
 
-## Features
+2. **PoleFX LED Poles**: High-quality LED dance poles designed to work seamlessly with the PoleFX Player. These poles offer vibrant lighting effects and can be customized using the PoleFX Player's web app.
 
-Explore the key features of our product:
-
-- **Feature 1**: A brief description of the feature.
-- **Feature 2**: A brief description of another feature.
-- **Feature 3**: More feature descriptions.
-
-## Documentation Sections
-
-- [Playback Modes](playback-modes.md)
-- [Pattern Info](pattern-info.md)
-- [Custom Patterns](custom-patterns.md)
-- [Control Modes](control-modes.md)
-  - [DMX](dmx.md)
-  - [Keyboard](keyboard.md)
-
-## Contributing
-
-We welcome contributions from the community. Please see our [Contributing Guide](/contributing.md) for more information.
-
-## Support
-
-Need help? Check out our [Support Page](/support.md) or contact us at support@yourproduct.com.
-
-## About
-
-[Your Product Name] is developed by [Your Company or Your Name]. Visit our [website](https://www.yourproductwebsite.com) for more information.
+![PoleFX Preview](assets/reactor.gif)
 
 ---
 
-*Note: This documentation is continuously updated to provide you with the most accurate and up-to-date information.*
+_Note: This documentation is continuously updated to provide you with the most accurate and up-to-date information._

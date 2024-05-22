@@ -1,7 +1,7 @@
 ---
 title: Custom Patterns
 layout: default
-parent: Patterns
+parent: Control
 
 ---
 
