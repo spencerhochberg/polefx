@@ -4,19 +4,19 @@ layout: home
 nav_order: 0
 ---
 
-# Welcome to PoleFX Documentation
+# PoleFX Documentation
 
-This guide will help you set up, use, and understand our LED dance pole system.
+This guide will help you set up, use, and have optimal fun with your LED poles.
 
-## System Overview
+<!-- ## System Overview
 
 The PoleFX System consists of two main components:
 
 1. **PoleFX Player**: A small device that hosts a server for controlling the LED poles.
 
-2. **PoleFX LED Poles**: High-quality LED dance poles designed to work seamlessly with the PoleFX Player. These poles offer vibrant lighting effects and can be customized using the PoleFX Player's web app.
+2. **PoleFX LED Poles**: High-quality LED dance poles designed to work seamlessly with the PoleFX Player. These poles offer vibrant lighting effects and can be customized using the PoleFX Player's web app. -->
 
-![PoleFX Preview](assets/reactor.gif)
+<!-- ![PoleFX Preview](assets/reactor.gif) -->
 
 ---
 

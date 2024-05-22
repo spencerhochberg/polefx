@@ -1,9 +1,8 @@
 ---
 title: Keyboard
 layout: default
-parent: Inputs
-grand_parent: Control
-
+parent: Control
+nav_order: 2
 ---
 
 # Keyboard

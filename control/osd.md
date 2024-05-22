@@ -1,9 +1,8 @@
 ---
 title: On-Screen Display
 layout: default
-parent: Inputs
-grand_parent: Control
-
+parent: Control
+nav_order: 1
 ---
 
 # On-Screen Display

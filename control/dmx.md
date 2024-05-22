@@ -1,13 +1,15 @@
 ---
-title: DMX Control Mode
+title: DMX
 layout: default
-grand_parent: Control
-parent: Inputs
+parent: Control
+nav_order: 3
 ---
 
-# DMX Control Mode
+# DMX Control
 
-The PoleFX Player uses 9 DMX channels to control various functions. To set up DMX:
+DMX512 is a standard communication protocol widely used in the entertainment industry for controlling stage lighting and effects. 
+
+The PoleFX Player can optionally use DMX to control various functions. To set up DMX:
 
 1. Connect to the PoleFX Player's web app at `http://polefx.local`.
 2. Go to the settings page.
