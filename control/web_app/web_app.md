@@ -43,6 +43,6 @@ Next and Previous refer to the order of the patterns in the playlist.
 
 Change what is shown in the Page Content area.
 
-<a href="/control/web_app/patterns.html">Patterns</a><br>
-<a href="/control/web_app/text.html">Text</a><br>
-<a href="/control/web_app/adjust.html">Adjust</a>
+<a href="{{ site.baseurl }}/control/web_app/patterns.html">Patterns</a><br>
+<a href="{{ site.baseurl }}/control/web_app/text.html">Text</a><br>
+<a href="{{ site.baseurl }}/control/web_app/adjust.html">Adjust</a>
