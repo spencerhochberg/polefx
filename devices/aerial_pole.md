@@ -6,6 +6,8 @@ parent: Devices
 nav_order: 3
 ---
 
+# Notice: This info is outdated. Update coming soon.
+
 # Aerial Pole
 - [Specs](#specs)
 - [Setup](#setup)
@@ -18,7 +20,6 @@ nav_order: 3
 | Configuration | Single Piece     |
 | Length        | 9ft              |
 | Diameter      | 46mm             |
-| Rating        |                  |
 | Power         | Battery          |
 
 

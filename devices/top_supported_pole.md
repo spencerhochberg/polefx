@@ -5,6 +5,7 @@ layout: default
 parent: Devices
 nav_order: 1
 ---
+# Notice: This info is outdated. Update coming soon.
 
 # Top-Supported Pole
 
@@ -18,7 +19,6 @@ nav_order: 1
 | Configuration | Single Piece     |
 | Length        | Up to 12ft       |
 | Diameter      | 46mm             |
-| Rating        |                  |
 | Power         | 5VDC, 60W        |
 | Data connection | Ethernet       |
 | Mounting      | Top and bottom bearings, bolted in place |
@@ -81,6 +81,6 @@ Secure the top support to the overhead mounting surface. The pole can be either 
 1. Connect the PoleFX Player to the pole using a network cable.
 2. Plug in the PoleFX Player into power and wait about a minute for it to boot.
 
-![PoleFX Player Image](/assets/devices/top_support/control_box_2022-Mar-08_06_ports_display_shadow2.png)
+![PoleFX Player Image](/assets/server/polefx_player.png)
 
 **Note:** When the pole gets power, it flashes a short purple section at the top. The full display is activated once the Player boots.

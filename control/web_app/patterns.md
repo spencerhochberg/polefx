@@ -9,7 +9,7 @@ nav_order: 1
 
 # Patterns
 #### Main table
-Table is populated with all of the 'active' patterns on the device. The patterns can be dragged to be reordered. Click on a pattern to select it to play.
+The table is the playlist, populated with all of the 'active' patterns on the device. The patterns can be dragged to be reordered. Click on a pattern to select it to play.
 
 #### Edit Patterns
 

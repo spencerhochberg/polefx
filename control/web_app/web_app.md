@@ -4,6 +4,7 @@ layout: default
 parent: Control
 nav_order: 0
 has_children: true
+has_toc: false
 ---
 
 # Web App
@@ -16,22 +17,32 @@ You can join its Wi-Fi network in Access Point mode, configure it to join your e
 
 ## UI Overview
 
-**Pole Preview**: This section provides a real-time preview of the LED patterns displayed on the pole. 
+<img src="/assets/server/ui_preview_labels.png" alt="PoleFX Player">
 
-**Page Content**: The main content area of the web app, where you can view and edit various settings, patterns, and adjustments based on the selected page.
+#### 1 Pole Preview: 
 
-**Play Mode Settings**: 
+This section provides a preview of the LED patterns displayed on the pole. 
 
-<img src="/assets/server/playmode.png" alt="Play Mode" width="250">
+#### 2 Page Content: 
 
+The main content area, based on the selected page (section 5).
 
-**Pattern Select**: 
+#### 3 Play Mode Settings: 
 
-<img src="/assets/server/patterns.png" alt="Patterns" width="250">
+Single: Loops the currently selected pattern
+Shuffle: Random cycling through the active patterns
+Playlist: Sequentially cycle through the active patterns
 
-**Pages**: 
+Shuffle and playlist modes change the pattern on an interval specified by the Autoplay Timer, set in the Adjust page.
 
-<img src="/assets/server/pages.png" alt="Pages" width="250">
+#### 4 Pattern Select: 
 
-**Settings**: Access general settings for the PoleFX Player, such as network configuration, DMX and device parameters.
+Next and Previous refer to the order of the patterns in the playlist.
 
+#### 5 Pages: 
+
+Change what is shown in the Page Content area.
+
+<a href="/control/web_app/patterns.html">Patterns</a><br>
+<a href="/control/web_app/text.html">Text</a><br>
+<a href="/control/web_app/adjust.html">Adjust</a>
