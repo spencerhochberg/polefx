@@ -2,7 +2,8 @@ title: PoleFX Docs
 description: PoleFX Docs
 theme: just-the-docs
 
-url: https://spencerhochberg.github.io/polefx
+url: https://spencerhochberg.github.io
+baseurl: /polefx
 
 logo: "https://images.squarespace-cdn.com/content/v1/607b30016352d519b169e87c/1618686312827-CP6K0EJV3C77RMVP3SCS/POLEFX_LOGO_w_trans_8000.png?format=1500w"
 color_scheme: dark
