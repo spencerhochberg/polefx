@@ -10,7 +10,7 @@ nav_order: 2
 ## The PoleFX Player
 This little box serves pattern content to the poles and exposes control interfaces. 
 <br>
-<img src="/assets/server/polefx_player.png" alt="PoleFX Player">
+<img src="{{ site.baseurl }}/assets/server/polefx_player.png" alt="PoleFX Player">
 
 ## Input Methods
 

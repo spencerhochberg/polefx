@@ -13,4 +13,4 @@ Use this page to display custom text messages on the LED pole.
 
 The table displays all of the created text messages. The messages can be dragged to be reordered. Only one can be active at a time.
 
-<img src="/assets/server/textmessages.png" alt="Text Messages" width="500">
+<img src="{{ site.baseurl }}/assets/server/textmessages.png" alt="Text Messages" width="500">

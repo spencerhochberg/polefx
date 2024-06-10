@@ -31,7 +31,7 @@ Upload custom content
 - Supported extensions: .mov, .mp4
 
 <!-- ![Pattern format](/assets/server/exampleframe.png) -->
-<img src="/assets/server/exampleframe.png" alt="Pattern format" width="400">
+<img src="{{ site.baseurl }}/assets/server/exampleframe.png" alt="Pattern format" width="400">
 
 
 ***

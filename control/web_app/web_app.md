@@ -9,7 +9,7 @@ has_toc: false
 
 # Web App
 
-![App Preview](/assets/server/ui_preview.png)
+![App Preview]({{ site.baseurl }}/assets/server/ui_preview.png)
 
 Make sure your device is on a network with the PoleFX Player. 
 
@@ -17,7 +17,7 @@ You can join its Wi-Fi network in Access Point mode, configure it to join your e
 
 ## UI Overview
 
-<img src="/assets/server/ui_preview_labels.png" alt="PoleFX Player">
+<img src="{{ site.baseurl }}/assets/server/ui_preview_labels.png" alt="PoleFX Player">
 
 #### 1 Pole Preview: 
 

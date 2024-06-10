@@ -15,4 +15,4 @@ General display settings.
 - Match Mode Active - forces the hue of all the patterns to be constant. This is an easy way to make everything look cohesive while displaying arbitrary patterns. 
 - Match Mode Color - the color for all the patterns if match mode is active
 
-<img src="/assets/server/adjustsettings.png" alt="Adjust settings" width="500">
+<img src="{{ site.baseurl }}/assets/server/adjustsettings.png" alt="Adjust settings" width="500">
