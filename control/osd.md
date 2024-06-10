@@ -41,9 +41,7 @@ Up/Down buttons scroll through patterns, center button selects pattern.
 
 **Ethernet**: Displays current Ethernet interface IP addresses
 
-## Manage
 
-Factory Reset: restores all configuration and pattern states to initial state. Permanently deletes all uploaded files.
 
 ___
 

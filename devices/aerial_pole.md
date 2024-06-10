@@ -34,7 +34,7 @@ The pole and base are shipped separately, your first mission is to mount it and 
 
 Using a 4mm allen wrench, remove the three M6x55mm bolts that hold the bottom cover in place. Remove the cover.
 
-![Base Assembly](/assets/devices/aerial/aerial_base_assembly_line.png)
+![Base Assembly]({{ site.baseurl }}/assets/devices/aerial/aerial_base_assembly_line.png)
 
 ## Step 2: Insert base onto pole
 
@@ -81,7 +81,7 @@ Battery: Li-Ion 14.8V 5200mAh 76.96Wh Battery pack - Tenergy #31892
 
 Charger: Tenergy TLP3000 1.5A Charger for 14.8V cells
 
-![Tenergy Charger](/assets/devices/aerial/aerial_charger.jpg)
+![Tenergy Charger]({{ site.baseurl }}/assets/devices/aerial/aerial_charger.jpg)
 
 # Rigging
 
@@ -89,4 +89,4 @@ Use a rated carabiner to attach to the pole’s top point. Don’t attach a span
 
 We typically use two carabiners with a swivel between.
 
-![Carabiner setup](/assets/devices/aerial/aerial_rigging.png)
+![Carabiner setup]({{ site.baseurl }}/assets/devices/aerial/aerial_rigging.png)
