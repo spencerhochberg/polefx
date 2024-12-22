@@ -8,15 +8,11 @@ nav_order: 0
 
 This guide will help you set up, use, and have optimal fun with your LED poles.
 
-<!-- ## System Overview
+## Pole Configurations
 
-The PoleFX System consists of two main components:
-
-1. **PoleFX Player**: A small device that hosts a server for controlling the LED poles.
-
-2. **PoleFX LED Poles**: High-quality LED dance poles designed to work seamlessly with the PoleFX Player. These poles offer vibrant lighting effects and can be customized using the PoleFX Player's web app. -->
-
-<!-- ![PoleFX Preview](assets/reactor.gif) -->
+- [Top-Supported Pole](top_supported_pole.html): rigidly mounted bearings on the top and bottom
+- [Freestanding Pole](freestanding_pole.html): no top support, mounted in portable stage
+- [Aerial Pole](aerial_pole.html): suspended from an overhead rigging point
 
 ---
 
