@@ -18,7 +18,7 @@ nav_order: 3
 
 | ------------- | ---------------- |
 | Configuration | Single Piece     |
-| Length        | 9ft              |
+| Length        | 8ft              |
 | Diameter      | 46mm             |
 | Power         | Battery          |
 
