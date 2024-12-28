@@ -27,7 +27,7 @@ The PoleFX freestanding pole mounts in the [X-Stage Lite by X-Pole](https://xpol
 Refer to the [X-Stage Lite Manual](/assets/devices/freestanding/XStage-Manual-2015-April.pdf) to familiarize yourself with the stage's normal operation.
 
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/x-stage-assembly.gif" alt="X-Stage assembly" style="background-color:white;">
+<img src="{{ site.baseurl }}/assets/devices/freestanding/x-stage-assembly.gif" alt="X-Stage assembly" style="background-color:#dbdbdb;">
 
 
 A power and data cable comes out just above the stage platform and is held stationary by engaging with one of the holes in the bearing carrier.
@@ -57,7 +57,7 @@ The bearing adapter is inserted into the bearing unit to adapt the 45mm (1.77") 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="flex: 1; margin-right: 10px;">
-    <img src="{{ site.baseurl }}/assets/devices/freestanding/bearinginsert.png" alt="X-Stage Bearing adapter insert" style="width: 100%; height: auto;">
+    <img src="{{ site.baseurl }}/assets/devices/freestanding/bearinginsert2.png" alt="X-Stage Bearing adapter insert" style="width: 100%; height: auto; filter: drop-shadow(0 0 10px #666666);">
   </div>
   <div style="flex: 1; margin-left: 10px;">
     <img src="{{ site.baseurl }}/assets/devices/freestanding/bearing-adapter-insert-arrow.png" alt="X-Stage Bearing adapter insert in bearing" style="width: 100%; height: auto;">
@@ -76,7 +76,7 @@ One of the floor plates requires a notch added to the inner edge to allow the po
 
 This circular cover protects the input cable in the exposed section between the notch in the stage plate and the pole.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/cover450.png" alt="Cable cover">
+<img src="{{ site.baseurl }}/assets/devices/freestanding/cover450.png" alt="Cable cover" style="filter: drop-shadow(0 0 10px #666666);">
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="flex: 1; margin-right: 10px;">
