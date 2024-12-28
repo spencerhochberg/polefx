@@ -1,20 +1,15 @@
 title: PoleFX Docs
 description: PoleFX Docs
 theme: just-the-docs
-
-
-
 url: https://spencerhochberg.github.io
-# baseurl: /polefx
-
-# logo: "https://images.squarespace-cdn.com/content/v1/607b30016352d519b169e87c/1618686312827-CP6K0EJV3C77RMVP3SCS/POLEFX_LOGO_w_trans_8000.png?format=1500w"
-logo: ""
+logo: "assets/img/POLEFX_LOGO_w_color_trans_250.png"
 color_scheme: dark
 
+# Custom auxiliary links
+aux_links:
+  "Visit PoleFX Website": 
+    - "https://polefx.com"  
 
-
-# Define navigation structure
 collections:
   docs:
     output: true
-
