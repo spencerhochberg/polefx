@@ -3,13 +3,13 @@ description: PoleFX Docs
 theme: just-the-docs
 
 url: https://spencerhochberg.github.io
-baseurl: /polefx
+# baseurl: /polefx
 
-logo: "https://images.squarespace-cdn.com/content/v1/607b30016352d519b169e87c/1618686312827-CP6K0EJV3C77RMVP3SCS/POLEFX_LOGO_w_trans_8000.png?format=1500w"
+# logo: "https://images.squarespace-cdn.com/content/v1/607b30016352d519b169e87c/1618686312827-CP6K0EJV3C77RMVP3SCS/POLEFX_LOGO_w_trans_8000.png?format=1500w"
+logo: ""
 color_scheme: dark
 
-aux_links:
-  PoleFX Home: https://polefx.com
+
 
 # Define navigation structure
 collections:
