@@ -8,6 +8,11 @@ nav_order: 2
 
 # Freestanding Pole
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1; min-width: 300px; padding: 10px;">
+<img src="{{ site.baseurl }}/assets/devices/freestanding/freestanding_450.png" alt="Freestanding LED Dance Pole" style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+</div>
+<div style="flex: 1; min-width: 300px;" markdown="1">
 - [Specs](#specs)
 - [X-Stage Installation](#x-stage-installation)
 - [X-Stage Modifications](#x-stage-modifications)
@@ -16,6 +21,11 @@ nav_order: 2
   - [Bearing Size Adapter](#bearing-size-adapter)
   - [Floor Plate Notch](#floor-plate-notch)
   - [Cable Cover](#cable-cover)
+- [X-Stage Reminders](#x-stage-reminders)
+</div>
+</div>
+
+
 
 ## Specs
 

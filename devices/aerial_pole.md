@@ -6,13 +6,20 @@ parent: Devices
 nav_order: 3
 ---
 
-# Notice: This info is outdated. Update coming soon.
-
 # Aerial Pole
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="flex: 1; min-width: 300px; padding: 10px;">
+<img src="{{ site.baseurl }}/assets/devices/aerial/aerial_450.png" alt="Aerial LED Pole" style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+</div>
+<div style="flex: 1; min-width: 300px;" markdown="1">
 - [Specs](#specs)
-- [Setup](#setup)
-- [Battery](#battery)
-- [Rigging](#rigging)
+- [Variants](#variants)
+  - [Wired](#wired)
+  - [Wireless](#wireless)
+- [Pre-2025 Version](#pre-2025)
+</div>
+</div>
 
 ## Specs
 
@@ -23,8 +30,21 @@ nav_order: 3
 | Power         | Battery          |
 
 
+## Variants
 
-# Setup
+### Wired
+
+Wired power and ethernet data connection
+
+### Wireless
+
+Battery power and onboard media server
+
+---
+
+<details markdown="1" id="pre-2025">
+<summary>Pre-2025</summary>
+
 
 ## Base Assembly
 
@@ -90,3 +110,7 @@ Use a rated carabiner to attach to the pole’s top point. Don’t attach a span
 We typically use two carabiners with a swivel between.
 
 ![Carabiner setup]({{ site.baseurl }}/assets/devices/aerial/aerial_rigging.png)
+
+</details>
+
+
