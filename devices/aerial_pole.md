@@ -2,23 +2,37 @@
 title: Aerial Pole
 layout: default
 parent: Devices
-# has_children: true
 nav_order: 3
 ---
 
 # Aerial Pole
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-<div style="flex: 1; min-width: 300px; padding: 10px;">
-<img src="{{ site.baseurl }}/assets/devices/aerial/aerial_450.png" alt="Aerial LED Pole" style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
-</div>
-<div style="flex: 1; min-width: 300px;" markdown="1">
-- [Specs](#specs)
-- [Variants](#variants)
-  - [Wired](#wired)
-  - [Wireless](#wireless)
-- [Pre-2025 Version](#pre-2025)
-</div>
+  <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
+    <!-- Static PNG as the base layer -->
+    <img 
+      src="{{ site.baseurl }}/assets/devices/aerial/aerial_450.png" 
+      alt="Aerial LED Pole" 
+      style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+
+    <!-- GIF overlay with blend mode -->
+    <img 
+      src="{{ site.baseurl }}/assets/img/animation7.gif" 
+      alt="Animation Overlay" 
+      style="position: absolute; top: 79px; left: calc(50% + -3px); transform: translateX(calc(-50% + 0px)) rotate(-0.98deg); height: 450px; width: auto; pointer-events: none; mix-blend-mode: screen;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <ul>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#variants">Variants</a>
+        <ul>
+          <li><a href="#wired">Wired</a></li>
+          <li><a href="#wireless">Wireless</a></li>
+        </ul>
+      </li>
+      <li><a href="#pre-2025">Pre-2025 Version</a></li>
+    </ul>
+  </div>
 </div>
 
 ## Specs

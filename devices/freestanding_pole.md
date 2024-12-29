@@ -1,7 +1,6 @@
 ---
 title: Freestanding Pole
 layout: default
-# has_children: true
 parent: Devices
 nav_order: 2
 ---
@@ -9,35 +8,46 @@ nav_order: 2
 # Freestanding Pole
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-<div style="flex: 1; min-width: 300px; padding: 10px;">
-<img src="{{ site.baseurl }}/assets/devices/freestanding/freestanding_450.png" alt="Freestanding LED Dance Pole" style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
-</div>
-<div style="flex: 1; min-width: 300px;" markdown="1">
-- [Specs](#specs)
-- [X-Stage Installation](#x-stage-installation)
-- [X-Stage Modifications](#x-stage-modifications)
-  - [Bearing Unit Bolts](#bearing-unit-bolts)
-  - [Pole Retaining Set Screws](#pole-retaining-set-screw-replacement)
-  - [Bearing Size Adapter](#bearing-size-adapter)
-  - [Floor Plate Notch](#floor-plate-notch)
-  - [Cable Cover](#cable-cover)
-- [X-Stage Reminders](#x-stage-reminders)
-</div>
-</div>
+  <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
+    <!-- Static PNG as the base layer -->
+    <img 
+      src="{{ site.baseurl }}/assets/devices/freestanding/freestanding_450.png" 
+      alt="Freestanding LED Dance Pole" 
+      style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
-
+    <!-- GIF overlay with blend mode -->
+    <img 
+      src="{{ site.baseurl }}/assets/img/animation0.gif" 
+      alt="Animation Overlay" 
+      style="position: absolute; top: 10px; left: calc(50% + 1px); transform: translateX(-50%); height: 450px; width: auto; pointer-events: none; mix-blend-mode: screen;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <ul>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#x-stage-installation">X-Stage Installation</a></li>
+      <li><a href="#x-stage-modifications">X-Stage Modifications</a></li>
+        <ul>
+          <li><a href="#bearing-unit-bolts">Bearing Unit Bolts</a></li>
+          <li><a href="#pole-retaining-set-screw-replacement">Pole Retaining Set Screws</a></li>
+          <li><a href="#bearing-size-adapter">Bearing Size Adapter</a></li>
+          <li><a href="#floor-plate-notch">Floor Plate Notch</a></li>
+          <li><a href="#cable-cover">Cable Cover</a></li>
+        </ul>
+      <li><a href="#x-stage-reminders">X-Stage Reminders</a></li>
+    </ul>
+  </div>
+</div>
 
 ## Specs
 
 The PoleFX freestanding LED pole is designed to mount in the [X-Stage Lite by X-Pole](https://xpoleus.com/shop-all/stages/xstage-lite/x-stage-lite/).
 
-
-| ------------- | ---------------- |
-| Diameter      | 46mm             |
-| Power         | 5VDC, 60W       |
-| Data connection | Ethernet       |
+| Feature       | Description       |
+| ------------- | ----------------- |
+| Diameter      | 46mm              |
+| Power         | 5VDC, 60W         |
+| Data connection | Ethernet        |
 | Mounting      | X-Stage Lite by X-Pole |
-
 
 ## X-Stage Installation
 
@@ -47,40 +57,33 @@ Familiarize yourself with the stage's normal operation.
 <br>
 <a href="https://www.youtube.com/watch?v=SRdBhcoPOu4">X-Stage Installation Video</a>
 
-
-Building on that foundation, we make a few modifications to the X-Stage to support the LED pole. 
+Building on that foundation, we make a few modifications to the X-Stage to support the LED pole.
 
 <img src="{{ site.baseurl }}/assets/devices/freestanding/x-stage-assembly.gif" alt="X-Stage assembly" style="background-color:#dbdbdb;">
 
-
-- A power and data cable connected to the bottom of the pole is routed through a notch created in one of the stage plates. 
-
-- Connections are made under the stage to a DC power supply and a PoleFX Player via ethernet.
-
-- A cover is then positioned around the pole to protect the cable. 
+- A power and data cable connected to the bottom of the pole is routed through a notch created in one of the stage plates.  
+- Connections are made under the stage to a DC power supply and a PoleFX Player via ethernet.  
+- A cover is then positioned around the pole to protect the cable.  
 
 ## X-Stage Modifications
 
 ### Bearing Unit Bolts
 
 We provide three <a href="https://www.mcmaster.com/91239A512/">M10 button head screws</a> to replace the stock set screws that fasten the bearing unit to the stage frame.
-<br>
 
 <img src="{{ site.baseurl }}/assets/devices/freestanding/xstagebolts_3.png" alt="X-Stage Bearing Unit Bolts">
 
-These bolts prevent the base of the pole and input cable from spinning. 
-<br>
+These bolts prevent the base of the pole and input cable from spinning.  
 
 ### Pole Retaining Set Screw Replacement
 
-The existing set screws that tighten into the pole are replaced with longer <a href="https://www.mcmaster.com/91390A143/">M8 x 1.25 mm thread, 16 mm long set screws</a>
+The existing set screws that tighten into the pole are replaced with longer <a href="https://www.mcmaster.com/91390A143/">M8 x 1.25 mm thread, 16 mm long set screws</a>.
 
 <img src="{{ site.baseurl }}/assets/devices/freestanding/xstagesetscrew.png" alt="X-Stage Set Screw Location">
 
-
 ### Bearing Size Adapter
 
-The bearing size adapter is inserted into the bearing unit to adapt the 45mm (1.77") bearing to the 1.5" diameter pole. 
+The bearing size adapter is inserted into the bearing unit to adapt the 45mm (1.77") bearing to the 1.5" diameter pole.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="flex: 1; margin-right: 10px;">
@@ -91,14 +94,13 @@ The bearing size adapter is inserted into the bearing unit to adapt the 45mm (1.
   </div>
 </div>
 
-### Floor plate notch
+### Floor Plate Notch
 
 One of the floor plates requires a notch added to the inner edge to allow the pole's cables to tunnel under the stage. Stages provided by PoleFX will already have this modification, and individual modified platforms can be provided.
 
 <img src="{{ site.baseurl }}/assets/devices/freestanding/notch_5.png" alt="Stage Platform Notch">
 
-
-### Cable cover
+### Cable Cover
 
 This cover protects the input cable in the exposed section between the notch in the stage plate and the pole.
 
@@ -113,15 +115,10 @@ This cover protects the input cable in the exposed section between the notch in 
   </div>
 </div>
 
-
 ## X-Stage Reminders
-  - Prior to every use, make sure the screws are tight.
-  <br>
-  - Tighten the 2 Static/Spin hex screws and set your pole to ‘STATIC’ mode prior to removal. If it is in spinning mode, the pole cannot be removed. 
-  <br>
-  - Do not lift or carry the X-Stage by the plates, this will damage the sprring catch pins. 
-  <br>
-  - Do not drag/slide the X-Stage, this will damage the rubber feet. 
-  <br>
-  - Do not try to remove the pole when in spinning mode, damage will occur. .
 
+- Prior to every use, make sure the screws are tight.  
+- Tighten the 2 Static/Spin hex screws and set your pole to ‘STATIC’ mode prior to removal. If it is in spinning mode, the pole cannot be removed.  
+- Do not lift or carry the X-Stage by the plates, this will damage the spring catch pins.  
+- Do not drag/slide the X-Stage, this will damage the rubber feet.  
+- Do not try to remove the pole when in spinning mode, damage will occur.  

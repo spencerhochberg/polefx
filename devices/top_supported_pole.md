@@ -7,14 +7,28 @@ nav_order: 1
 # Top-Supported Pole
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-<div style="flex: 1; min-width: 300px; padding: 10px;">
-<img src="{{ site.baseurl }}/assets/devices/top_support/support_450.png" alt="Supported LED Dance Pole" style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+  <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
+    <!-- Static PNG as the base layer -->
+    <img 
+      src="{{ site.baseurl }}/assets/devices/top_support/support_450.png" 
+      alt="Supported LED Dance Pole" 
+      style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+
+    <!-- GIF overlay with blend mode -->
+    <img 
+      src="{{ site.baseurl }}/assets/img/animation12.gif" 
+      alt="Animation Overlay" 
+      style="position: absolute; top: 50px; left: calc(50% + 1px); transform: translateX(-50%); height: 484px; width: auto; pointer-events: none; mix-blend-mode: screen;">
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <ul>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#installation">Installation</a></li>
+    </ul>
+  </div>
 </div>
-<div style="flex: 1; min-width: 300px;" markdown="1">
-- [Specs](#specs)
-- [Installation](#installation)
-</div>
-</div>
+
+
 
 
 ## Specs
