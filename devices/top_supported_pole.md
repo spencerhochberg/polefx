@@ -1,86 +1,60 @@
 ---
 title: Top-Supported Pole
 layout: default
-# has_children: true
 parent: Devices
 nav_order: 1
 ---
-# Notice: This info is outdated. Update coming soon.
 
 # Top-Supported Pole
 
 - [Specs](#specs)
 - [Installation](#installation)
 
-
 ## Specs
 
-| ------------- | ---------------- |
-| Configuration | Single Piece     |
-| Length        | Up to 12ft       |
-| Diameter      | 46mm             |
-| Power         | 5VDC, 60W        |
-| Data connection | Ethernet       |
-| Mounting      | Top and bottom bearings, bolted in place |
+| -------------    | ----------------   |
+| **Configuration**| Single Piece       |
+| **Length**       | Up to 12ft         |
+| **Diameter**     | 46mm               |
+| **Power**        | 5VDC, 60W          |
+| **Data Connection** | Ethernet        |
+| **Mounting**     | Top and bottom bearings, bolted in place |
 
+---
 
-# Installation
+## Installation
 
-## Recommended Prerequisites
+### Step 1. Decide Which Mount to Install First
 
-- A partner
-- Ladder/access to top support
-- Mounting hardware
-- Drill or appropriate tools for installing mounting hardware
-- Level
+- If you **must align with a ceiling beam**, install the top mount first.  
+- If you **must center on a stage**, install the bottom mount first.
 
-## Step 1. Secure the Bottom Mount
+### Step 2. Install the First Mount
 
-The bottom mount can be attached to the floor or stage using either the centered hole or the four holes in the flange around the pole.
+1. Position the mount (top or bottom) in the desired location.  
+2. **Bottom Mount**: Use the four flange holes—there’s no longer a center hole.  
+3. **Top Mount**: Adjust for angled ceilings if needed.  
 
-1. Drill appropriate holes for the selected hardware.
-2. Fasten the bottom mount.
+### Step 3. Insert the Pole to Mark the Second Mount
 
-![Base Image]({{ site.baseurl }}/assets/devices/top_support/polefx-bottom-support.png)
+1. Place the pole into the installed mount.  
+2. Hold or support the free end of the pole vertically, ensuring smooth spin.  
+3. Mark the holes where the second mount will be attached.
 
-## Step 2. Slide On the Top Mount
+### Step 4. Install the Second Mount
 
-1. Slide the bearing over the top of the pole, as shown.
-2. Set screws in the bearing's collar may be tightened to temporarily hold it in place.
+1. Drill any required pilot holes for mounting hardware.  
+2. Secure the second mount firmly.  
+3. Check that the pole remains straight and can rotate freely.
 
-![Top Flange Image]({{ site.baseurl }}/assets/devices/top_support/polefx_top_bearing.png)
+### Step 5. Plug in Power and Data at the Top
 
+1. With the pole fully seated in both mounts, connect the **power** and **data** cables at the top.  
+2. Note that the top connector can spin freely with the pole.  
+3. Keep the pole’s power supply near the top mount.
 
-## Step 3. Mark Location of Top Support
+### Step 6. Connect to the PoleFX Player
 
-1. Insert the pole into the bottom mount and stand it up vertically.
-2. Slide the top support up to make contact with the top surface. The angle of the top mount can be adjusted to accommodate angled ceilings.
-3. Using a level, verify that the pole is straight.
-4. Mark the center points of the top slots to drill pilot holes in the top surface.
-
-![Top Support Installed Image]({{ site.baseurl }}/assets/devices/top_support/polefx-mount-top_blk2.png)
-
-
-## Step 4. Secure the Top Support
-
-Secure the top support to the overhead mounting surface. The pole can be either in place or inserted after.
-
-![Installed Image]({{ site.baseurl }}/assets/devices/top_support/polefx_top_support_installed.png)
-
-
-## Step 5. Plug Cables into Top
-
-1. With the pole inserted into both mounted bearings, plug in the power and data connector to the top of the pole. This connector is able to spin independently from the rest of the pole.
-2. Connect the pole's power supply and store it nearby the top of the pole.
-
-![Cables Image]({{ site.baseurl }}/assets/devices/top_support/polefx_top_connector.png)
-
-
-## Step 6. Connect to PoleFX Player
-
-1. Connect the PoleFX Player to the pole using a network cable.
-2. Plug in the PoleFX Player into power and wait about a minute for it to boot.
-
-![PoleFX Player Image]({{ site.baseurl }}/assets/server/polefx_player.png)
-
-**Note:** When the pole gets power, it flashes a short purple section at the top. The full display is activated once the Player boots.
+1. Use an **Ethernet/network cable** to connect the Player to the pole.  
+2. Plug in and power on the Player.  
+3. Wait about a minute for the system to boot. (You’ll see a brief purple flash on the pole before the full light show begins.)
