@@ -25,6 +25,11 @@ nav_order: 2
     <ul>
       <li><a href="#specs">Specs</a></li>
       <li><a href="#x-stage-installation">X-Stage Installation</a></li>
+        <ul>
+          <li><a href="#manual-and-video">Manual and Video</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#x-stage-reminders">X-Stage Reminders</a></li>
+        </ul>
       <li><a href="#x-stage-modifications">X-Stage Modifications</a></li>
         <ul>
           <li><a href="#bearing-unit-bolts">Bearing Unit Bolts</a></li>
@@ -32,8 +37,14 @@ nav_order: 2
           <li><a href="#bearing-size-adapter">Bearing Size Adapter</a></li>
           <li><a href="#floor-plate-notch">Floor Plate Notch</a></li>
           <li><a href="#cable-cover">Cable Cover</a></li>
-        </ul>
-      <li><a href="#x-stage-reminders">X-Stage Reminders</a></li>
+        </ul> 
+      <li><a href="#pole-setup">Pole Setup</a></li>
+        <ul>
+          <li><a href="#stage-insertion">Stage Insertion</a></li>
+          <li><a href="#pole-coupling">Pole Coupling</a></li>
+          <li><a href="#input-connections">Input Connections</a></li>
+          <li><a href="#final-steps">Final Steps</a></li>
+        </ul> 
     </ul>
   </div>
 </div>
@@ -53,9 +64,12 @@ The PoleFX freestanding LED pole is designed to mount in the [X-Stage Lite by X-
 
 Familiarize yourself with the stage's normal operation.
 
+### Manual and Video
 <a href="/assets/devices/freestanding/XStage-Manual-2015-April.pdf">X-Stage Lite Manual</a>
 <br>
 <a href="https://www.youtube.com/watch?v=SRdBhcoPOu4">X-Stage Installation Video</a>
+
+### Overview
 
 Building on that foundation, we make a few modifications to the X-Stage to support the LED pole.
 
@@ -64,6 +78,15 @@ Building on that foundation, we make a few modifications to the X-Stage to suppo
 - A power and data cable connected to the bottom of the pole is routed through a notch created in one of the stage plates.  
 - Connections are made under the stage to a DC power supply and a PoleFX Player via ethernet.  
 - A cover is then positioned around the pole to protect the cable.  
+
+### X-Stage Reminders
+
+- Prior to every use, make sure the screws are tight.  
+- Tighten the 2 Static/Spin hex screws and set your pole to ‘STATIC’ mode prior to removal. If it is in spinning mode, the pole cannot be removed.  
+- Do not lift or carry the X-Stage by the plates, this will damage the spring catch pins.  
+- Do not drag/slide the X-Stage, this will damage the rubber feet.  
+- Do not try to remove the pole when in spinning mode, damage will occur.  
+
 
 ## X-Stage Modifications
 
@@ -115,10 +138,40 @@ This cover protects the input cable in the exposed section between the notch in 
   </div>
 </div>
 
-## X-Stage Reminders
+## Pole Setup
 
-- Prior to every use, make sure the screws are tight.  
-- Tighten the 2 Static/Spin hex screws and set your pole to ‘STATIC’ mode prior to removal. If it is in spinning mode, the pole cannot be removed.  
-- Do not lift or carry the X-Stage by the plates, this will damage the spring catch pins.  
-- Do not drag/slide the X-Stage, this will damage the rubber feet.  
-- Do not try to remove the pole when in spinning mode, damage will occur.  
+### Stage Insertion
+
+### Pole Coupling
+
+For two-piece poles only
+
+#### Electrical Connection
+
+Remove the cable from the inside of the top section and plug it into the port in the bottom section.
+
+There is not much slack so this is most easily done while holding the top section vertically in position ready to be inserted onto the bottom section. 
+
+#### Mechanical Connection
+
+With the cable connected, carefully slide the top section into position. Be sure to align hex heads with the holes in the top pole section. 
+
+When the sections are aligned, tighten the two set screws in the pole coupling. 
+
+To remove the pole sections, loosen the set screws all the way and then tighten them back in one turn. This should allow the sections to be freed again.
+
+### Input Connections
+
+A power and data input are both required. 
+
+The power supply is 5V, 12A. 
+
+The data connection is a Cat5/6 network cable, to connect to a media server or PoleFX player.
+
+### Final Steps
+
+When the pole gets power, it flashes at the ends to show it is booting.
+
+If there is no data connection, it defaults to a static pattern.
+
+Once the PoleFX Player boots, the pole will start animating.
