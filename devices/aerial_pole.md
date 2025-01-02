@@ -42,9 +42,21 @@ nav_order: 3
 | Configuration | Single Piece     |
 | Length        | 8ft              |
 | Diameter      | 46mm             |
-| Power         | Battery          |
 
 ## Sizing
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: flex-end; flex-wrap: wrap;">
+    <img 
+        src="{{ site.baseurl }}/assets/devices/aerial/1pc_aerial_dims.png" 
+        alt="One Piece Aerial Pole Dimensions" 
+        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+</div>
+
+LED display height: 84.5"
+
+Sized to fit inside an 8' tube, the max length before shipping gets expensive.
+
+Contact us for custom sizing.
 
 ## Variants
 
@@ -52,9 +64,28 @@ nav_order: 3
 
 Wired power and ethernet data connection
 
+We've combined a swivel with a slip ring, so an aerial apparatus can have a hardwired power and data connection while being able to spin freely.
+
+Advantages:
+- Permanent power connection means no need to charge
+- Wired data connection enables realtime data streaming, for robust external control
+
+Disadvantages:
+- Power and data cables must be run along with rigging, if possible
+
 ### Wireless
 
 Battery power and onboard media server
+
+For scenarios where it is not practical to run cables to the top of the pole, a battery and media server can be integrated into the platform at the bottom of the pole.
+
+Advantages: 
+- Self-contained device can be easily connected to rigging with no cables
+
+Disadvantages:
+- Show integration requires a wireless system to trigger content
+- Less control over device
+- Battery has limited run time and must be recharged
 
 ---
 

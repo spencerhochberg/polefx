@@ -29,8 +29,6 @@ nav_order: 1
   </div>
 </div>
 
-
-
 ## Specs
 
 | ------------- | ---------------- |
@@ -39,9 +37,40 @@ nav_order: 1
 | Diameter      | 46mm             |
 | Power         | 5VDC, 60W        |
 | Data connection | Ethernet       |
-| Mounting      | Top and bottom bearings, bolted in place |
+| Mounting      | Top and bottom bearings |
 
 ## Sizing
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: flex-end; flex-wrap: wrap;">
+    <figure style="text-align: center;">
+        <img 
+            src="{{ site.baseurl }}/assets/devices/supported/supported_dims_default.png" 
+            alt="Supported Pole Typical Dimensions" 
+            style="width: 100px; height: auto; filter: invert(1);">
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">Typical Dimensions</figcaption>
+    </figure>
+    <figure style="text-align: center;">
+        <img 
+            src="{{ site.baseurl }}/assets/devices/supported/supported_dims_maxdisplay.png" 
+            alt="Supported Pole Maximum Display Dimensions" 
+            style="width: 100px; height: auto; filter: invert(1);">
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">Maximum Display Length</figcaption>
+    </figure>
+    <figure style="text-align: center;">
+        <img 
+            src="{{ site.baseurl }}/assets/devices/supported/supported_dims_maxheight.png" 
+            alt="Supported Pole Maximum Height Dimensions" 
+            style="width: 100px; height: auto; filter: invert(1);">
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">Maximum Pole Length</figcaption>
+    </figure>
+</div>
+
+
+Each supported pole is custom built to fit the size of the space it is being installed in.
+
+The pole has an unlit section at the top that interfaces with the upper bearing, and a variable length LED display (up to 10' tall). Beyond a 129" ceiling height, the top unlit tube is lengthened to reach the intended total length. 
+
+There is typically about one inch of clearance between the top of the pole and the surface it is being attached to. This gap is necessary to be able to remove the pole without taking down the mounts. 
 
 
 ---
@@ -96,10 +125,6 @@ You will need:
 <img src="{{ site.baseurl }}/assets/devices/supported/bottominsertion1.png" alt="Inserting the pole into the bottom mount" style="max-width: 250px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 </div>
 </div>
-
-
-
-
 
 
 
