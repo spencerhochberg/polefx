@@ -24,6 +24,7 @@ nav_order: 2
   <div style="flex: 1; min-width: 300px;">
     <ul>
       <li><a href="#specs">Specs</a></li>
+      <li><a href="#sizing">Sizing</a></li>
       <li><a href="#x-stage-installation">X-Stage Installation</a></li>
         <ul>
           <li><a href="#manual-and-video">Manual and Video</a></li>
@@ -60,6 +61,43 @@ The PoleFX freestanding LED pole is designed to mount in the [X-Stage Lite by X-
 | Data connection | Ethernet        |
 | Mounting      | X-Stage Lite by X-Pole |
 
+
+## Sizing
+
+#### X-Stage Lite Dimensions
+<img 
+    src="{{ site.baseurl }}/assets/devices/freestanding/xstage_dims.png" 
+    alt="X-Stage Lite Dimensions" 
+    style="max-width: 100%; height: auto; display: block; margin: 0 auto; filter: invert(1);">
+
+#### One Piece Pole
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
+    <img 
+        src="{{ site.baseurl }}/assets/devices/freestanding/1pc_freestanding_pole_assembled_dims.png" 
+        alt="One Piece Freestanding Pole Assembled Dimensions" 
+        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+    <img 
+        src="{{ site.baseurl }}/assets/devices/freestanding/1pc_freestanding_pole_dims.png" 
+        alt="One Piece Freestanding Pole Dimensions" 
+        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+</div>
+Sized to fit inside an 8' tube, the max length before shipping gets expensive.
+
+#### Two Piece Pole
+
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
+    <img 
+        src="{{ site.baseurl }}/assets/devices/freestanding/2pc_freestanding_pole_assembled_dims.png" 
+        alt="Two Piece Freestanding Pole Assembled Dimensions" 
+        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+    <img 
+        src="{{ site.baseurl }}/assets/devices/freestanding/2pc_freestanding_pole_dims.png" 
+        alt="Two Piece Freestanding Pole Dimensions" 
+        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+</div>
+Sized to fit inside a Pelican Vault v800 case. 
+
 ## X-Stage Installation
 
 Familiarize yourself with the stage's normal operation.
@@ -82,10 +120,8 @@ Building on that foundation, we make a few modifications to the X-Stage to suppo
 ### X-Stage Reminders
 
 - Prior to every use, make sure the screws are tight.  
-- Tighten the 2 Static/Spin hex screws and set your pole to ‘STATIC’ mode prior to removal. If it is in spinning mode, the pole cannot be removed.  
 - Do not lift or carry the X-Stage by the plates, this will damage the spring catch pins.  
 - Do not drag/slide the X-Stage, this will damage the rubber feet.  
-- Do not try to remove the pole when in spinning mode, damage will occur.  
 
 
 ## X-Stage Modifications

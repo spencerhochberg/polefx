@@ -24,6 +24,7 @@ nav_order: 3
   <div style="flex: 1; min-width: 300px;">
     <ul>
       <li><a href="#specs">Specs</a></li>
+      <li><a href="#sizing">Sizing</a></li>
       <li><a href="#variants">Variants</a>
         <ul>
           <li><a href="#wired">Wired</a></li>
@@ -43,6 +44,7 @@ nav_order: 3
 | Diameter      | 46mm             |
 | Power         | Battery          |
 
+## Sizing
 
 ## Variants
 

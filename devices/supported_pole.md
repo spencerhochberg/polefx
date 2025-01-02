@@ -10,7 +10,7 @@ nav_order: 1
   <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
     <!-- Static PNG as the base layer -->
     <img 
-      src="{{ site.baseurl }}/assets/devices/top_support/support_450.png" 
+      src="{{ site.baseurl }}/assets/devices/supported/support_450.png" 
       alt="Supported LED Dance Pole" 
       style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
@@ -23,11 +23,11 @@ nav_order: 1
   <div style="flex: 1; min-width: 300px;">
     <ul>
       <li><a href="#specs">Specs</a></li>
-      <li><a href="#installation">Installation</a></li>
+      <li><a href="#sizing">Sizing</a></li>
+      <li><a href="#pole-setup">Pole Setup</a></li>
     </ul>
   </div>
 </div>
-
 
 
 
@@ -41,9 +41,11 @@ nav_order: 1
 | Data connection | Ethernet       |
 | Mounting      | Top and bottom bearings, bolted in place |
 
+## Sizing
+
 
 ---
-## Installation
+## Pole Setup
 
 
 ### Step 0. Gather Supplies
@@ -57,19 +59,19 @@ You will need:
 
 **Download hole templates**
 
-<a href="{{ site.baseurl }}/assets/devices/top_support/PFX_TopMount_Template_122824.pdf">Top Mount Hole Template</a>
+<a href="{{ site.baseurl }}/assets/devices/supported/PFX_TopMount_Template_122824.pdf">Top Mount Hole Template</a>
 
-<a href="{{ site.baseurl }}/assets/devices/top_support/PFX_BottomMount_Template_122824.pdf">Bottom Mount Hole Template</a>
+<a href="{{ site.baseurl }}/assets/devices/supported/PFX_BottomMount_Template_122824.pdf">Bottom Mount Hole Template</a>
 
 ### Step 1. Decide Which Mount to Install First
 
 - If you must align with a ceiling beam, install the top mount first.  
 
-<img src="{{ site.baseurl }}/assets/devices/top_support/topmount1.png" alt="Top Mount" style="max-width: 400px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/devices/supported/topmount1.png" alt="Top Mount" style="max-width: 400px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
 - If the position of the bottom is more critical, install the bottom mount first.
 
-<img src="{{ site.baseurl }}/assets/devices/top_support/bottommount2.png" alt="Bottom Mount" style="max-width: 250px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/devices/supported/bottommount2.png" alt="Bottom Mount" style="max-width: 250px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
 
 ### Step 2. Install the First Mount
@@ -88,10 +90,10 @@ You will need:
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 <div style="flex: 1; min-width: 300px; padding: 10px;">
-<img src="{{ site.baseurl }}/assets/devices/top_support/insert_ceiling1.png" alt="Inserting the pole into the top mount" style="max-width: 100%; height: auto; filter: drop-shadow(0 0 10px #474747); display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/devices/supported/insert_ceiling1.png" alt="Inserting the pole into the top mount" style="max-width: 100%; height: auto; filter: drop-shadow(0 0 10px #474747); display: block; margin: 0 auto;">
 </div>
 <div style="flex: 1; min-width: 300px;" markdown="1">
-<img src="{{ site.baseurl }}/assets/devices/top_support/bottominsertion1.png" alt="Inserting the pole into the bottom mount" style="max-width: 250px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/devices/supported/bottominsertion1.png" alt="Inserting the pole into the bottom mount" style="max-width: 250px; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 </div>
 </div>
 
@@ -110,7 +112,7 @@ You will need:
 
 ### Step 5. Plug in Power and Data at the Top
 
-<img src="{{ site.baseurl }}/assets/devices/top_support/ts_ports1.png" alt="PoleFX Player" style="max-width: 100%; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/devices/supported/ts_ports1.png" alt="PoleFX Player" style="max-width: 100%; height: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
 1. With the pole fully seated in both mounts, connect the **power** and **data** cables at the top.  
 2. Tie off the cables to minimize movement as the pole spins under them.  
@@ -124,8 +126,8 @@ You will need:
     </a>
   </div>
 
-1. Use a network cable to connect the Player to the pole.  
-2. Plug in and power on the Player.  
+1. Use a network cable to connect the player to the pole.  
+2. Plug power supply into player.  
 3. Wait about a minute for the system to boot.
 
-**Note:** When the pole gets power, it flashes a short purple section at the top. The full display is activated once the Player boots.
+**Note:** When the pole gets power, it flashes a short purple section at the top. The pole will display a static pattern if there is no network connection. The full display is activated once the Player boots.

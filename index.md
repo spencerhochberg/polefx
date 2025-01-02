@@ -14,16 +14,16 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
   <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="flex: 1; min-width: 300px;">
       <div >
-        <h3>Top-Supported Pole</h3>
+        <h3>Supported Pole</h3>
         <p>Rigidly mounted bearings on the top and bottom</p>
-        <p><a href="devices/top_supported_pole.html">View Details</a></p>
+        <p><a href="devices/supported_pole.html">View Details</a></p>
       </div>
     </div>
     <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
-      <a href="devices/top_supported_pole.html" style="display: block; position: relative;">
+      <a href="devices/supported_pole.html" style="display: block; position: relative;">
         <!-- Static PNG as the base layer -->
         <img 
-          src="{{ site.baseurl }}/assets/devices/top_support/support_450.png" 
+          src="{{ site.baseurl }}/assets/devices/supported/support_450.png" 
           alt="Supported LED Dance Pole" 
           style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
       
