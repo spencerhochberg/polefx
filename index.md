@@ -23,7 +23,7 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
       <a href="devices/supported_pole.html" style="display: block; position: relative;">
         <!-- Static PNG as the base layer -->
         <img 
-          src="{{ site.baseurl }}/assets/devices/supported/support_450.png" 
+          src="{{ site.baseurl }}/assets/devices/permanent/support_450.png" 
           alt="Supported LED Dance Pole" 
           style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
       
@@ -39,17 +39,17 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
   <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="flex: 1; min-width: 300px;">
       <div >
-        <h3>Freestanding Pole</h3>
+        <h3>Portable Pole</h3>
         <p>No top support, mounted in portable stage</p>
-        <p><a href="devices/freestanding_pole.html">View Details</a></p>
+        <p><a href="devices/portable_pole.html">View Details</a></p>
       </div>
     </div>
     <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
-      <a href="devices/freestanding_pole.html" style="display: block; position: relative;">
+      <a href="devices/portable_pole.html" style="display: block; position: relative;">
         <!-- Static PNG as the base layer -->
         <img 
-          src="{{ site.baseurl }}/assets/devices/freestanding/freestanding_450.png" 
-          alt="Freestanding LED Dance Pole" 
+          src="{{ site.baseurl }}/assets/devices/portable/freestanding_450.png" 
+          alt="Portable LED Dance Pole" 
           style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
       
         <!-- GIF overlay with blend mode -->
@@ -73,15 +73,15 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
       <a href="devices/aerial_pole.html" style="display: block; position: relative;">
         <!-- Static PNG as the base layer -->
         <img 
-          src="{{ site.baseurl }}/assets/devices/aerial/aerial_450.png" 
+          src="{{ site.baseurl }}/assets/devices/aerial/aerial_truss_450.png" 
           alt="Aerial LED Dance Pole" 
-          style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
+          style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto; margin-bottom: 20px;">
       
         <!-- GIF overlay with blend mode -->
         <img 
           src="{{ site.baseurl }}/assets/img/animation2.gif" 
           alt="Animation Overlay" 
-          style="position: absolute; top: 70px; left: calc(50% + -3px); transform: translateX(calc(-50% + 0px)) rotate(-0.925deg); height: 450px; width: auto; pointer-events: none; mix-blend-mode: screen;">
+          style="position: absolute; top: 148px; left: calc(50% + 3px); transform: translateX(calc(-50% + 0px)) rotate(0deg); height: 370px; width: auto; pointer-events: none; mix-blend-mode: screen;">
       </a>
     </div>
   </div>

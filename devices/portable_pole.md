@@ -1,18 +1,18 @@
 ---
-title: Freestanding Pole
+title: Portable Pole
 layout: default
 parent: Devices
 nav_order: 2
 ---
 
-# Freestanding Pole
+# Portable Pole
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
     <!-- Static PNG as the base layer -->
     <img 
-      src="{{ site.baseurl }}/assets/devices/freestanding/freestanding_450.png" 
-      alt="Freestanding LED Dance Pole" 
+      src="{{ site.baseurl }}/assets/devices/portable/freestanding_450.png" 
+      alt="Portable LED Dance Pole" 
       style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
     <!-- GIF overlay with blend mode -->
@@ -52,7 +52,7 @@ nav_order: 2
 
 ## Specs
 
-The PoleFX freestanding LED pole is designed to mount in the [X-Stage Lite by X-Pole](https://xpoleus.com/shop-all/stages/xstage-lite/x-stage-lite/).
+The PoleFX portable LED pole is designed to mount in the [X-Stage Lite by X-Pole](https://xpoleus.com/shop-all/stages/xstage-lite/x-stage-lite/).
 
 | Feature       | Description       |
 | ------------- | ----------------- |
@@ -64,46 +64,48 @@ The PoleFX freestanding LED pole is designed to mount in the [X-Stage Lite by X-
 
 ## Sizing
 
-#### X-Stage Lite Dimensions
-<img 
-    src="{{ site.baseurl }}/assets/devices/freestanding/xstage_dims.png" 
-    alt="X-Stage Lite Dimensions" 
-    style="max-width: 100%; height: auto; display: block; margin: 0 auto; filter: invert(1);">
-
-#### One Piece Pole
-
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
-    <img 
-        src="{{ site.baseurl }}/assets/devices/freestanding/1pc_freestanding_pole_assembled_dims.png" 
-        alt="One Piece Freestanding Pole Assembled Dimensions" 
-        style="max-width: 100%; max-height: 400px; filter: invert(1);">
-    <img 
-        src="{{ site.baseurl }}/assets/devices/freestanding/1pc_freestanding_pole_dims.png" 
-        alt="One Piece Freestanding Pole Dimensions" 
-        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+<div style="display: flex; justify-content: center; gap: 20px; align-items: flex-end; flex-wrap: wrap;">
+    <figure style="text-align: center;">
+        <img 
+            src="{{ site.baseurl }}/assets/devices/portable/xstage_dims.png" 
+            alt="X-Stage Lite Dimensions" 
+            style="max-width: 100%; height: auto; display: block; margin: 0 auto; filter: invert(1);">
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">X-Stage Lite Dimensions</figcaption>
+    </figure>
+    <figure style="text-align: center;">
+        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; justify-content: center;">
+            <img 
+                src="{{ site.baseurl }}/assets/devices/portable/1pc_freestanding_pole_assembled_dims2.png" 
+                alt="One Piece Freestanding Pole Assembled Dimensions" 
+                style="max-width: 100%; max-height: 400px; filter: invert(1);">
+            <img 
+                src="{{ site.baseurl }}/assets/devices/portable/1pc_freestanding_pole_dims.png" 
+                alt="One Piece Freestanding Pole Dimensions" 
+                style="max-width: 100%; max-height: 400px; filter: invert(1);">
+        </div>
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">One Piece Pole Dimensions</figcaption>
+    </figure>
+    <figure style="text-align: center;">
+        <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; justify-content: center;">
+            <img 
+                src="{{ site.baseurl }}/assets/devices/portable/2pc_freestanding_pole_assembled_dims.png" 
+                alt="Two Piece Freestanding Pole Assembled Dimensions" 
+                style="max-width: 100%; max-height: 400px; filter: invert(1);">
+            <img 
+                src="{{ site.baseurl }}/assets/devices/portable/2pc_freestanding_pole_dims.png" 
+                alt="Two Piece Freestanding Pole Dimensions" 
+                style="max-width: 100%; max-height: 400px; filter: invert(1);">
+        </div>
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">Two Piece Pole Dimensions</figcaption>
+    </figure>
 </div>
-Sized to fit inside an 8' tube, the max length before shipping gets expensive.
-
-#### Two Piece Pole
-
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: wrap;">
-    <img 
-        src="{{ site.baseurl }}/assets/devices/freestanding/2pc_freestanding_pole_assembled_dims.png" 
-        alt="Two Piece Freestanding Pole Assembled Dimensions" 
-        style="max-width: 100%; max-height: 400px; filter: invert(1);">
-    <img 
-        src="{{ site.baseurl }}/assets/devices/freestanding/2pc_freestanding_pole_dims.png" 
-        alt="Two Piece Freestanding Pole Dimensions" 
-        style="max-width: 100%; max-height: 400px; filter: invert(1);">
-</div>
-Sized to fit inside a Pelican Vault v800 case. 
 
 ## X-Stage Installation
 
 Familiarize yourself with the stage's normal operation.
 
 ### Manual and Video
-<a href="/assets/devices/freestanding/XStage-Manual-2015-April.pdf">X-Stage Lite Manual</a>
+<a href="/assets/devices/portable/XStage-Manual-2015-April.pdf">X-Stage Lite Manual</a>
 <br>
 <a href="https://www.youtube.com/watch?v=SRdBhcoPOu4">X-Stage Installation Video</a>
 
@@ -111,7 +113,7 @@ Familiarize yourself with the stage's normal operation.
 
 Building on that foundation, we make a few modifications to the X-Stage to support the LED pole.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/x-stage-assembly.gif" alt="X-Stage assembly" style="background-color:#dbdbdb;">
+<img src="{{ site.baseurl }}/assets/devices/portable/x-stage-assembly.gif" alt="X-Stage assembly" style="background-color:#dbdbdb;">
 
 - A power and data cable connected to the bottom of the pole is routed through a notch created in one of the stage plates.  
 - Connections are made under the stage to a DC power supply and a PoleFX Player via ethernet.  
@@ -130,7 +132,7 @@ Building on that foundation, we make a few modifications to the X-Stage to suppo
 
 We provide three <a href="https://www.mcmaster.com/91239A512/">M10 button head screws</a> to replace the stock set screws that fasten the bearing unit to the stage frame.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/xstagebolts_3.png" alt="X-Stage Bearing Unit Bolts">
+<img src="{{ site.baseurl }}/assets/devices/portable/xstagebolts_3.png" alt="X-Stage Bearing Unit Bolts">
 
 These bolts prevent the base of the pole and input cable from spinning.  
 
@@ -138,7 +140,7 @@ These bolts prevent the base of the pole and input cable from spinning.
 
 The existing set screws that tighten into the pole are replaced with longer <a href="https://www.mcmaster.com/91390A143/">M8 x 1.25 mm thread, 16 mm long set screws</a>.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/xstagesetscrew.png" alt="X-Stage Set Screw Location">
+<img src="{{ site.baseurl }}/assets/devices/portable/xstagesetscrew.png" alt="X-Stage Set Screw Location">
 
 ### Bearing Size Adapter
 
@@ -146,10 +148,10 @@ The bearing size adapter is inserted into the bearing unit to adapt the 45mm (1.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="flex: 1; margin-right: 10px;">
-    <img src="{{ site.baseurl }}/assets/devices/freestanding/bearinginsert2.png" alt="X-Stage Bearing adapter insert" style="width: 100%; height: auto; filter: drop-shadow(0 0 10px #666666);">
+    <img src="{{ site.baseurl }}/assets/devices/portable/bearinginsert2.png" alt="X-Stage Bearing adapter insert" style="width: 100%; height: auto; filter: drop-shadow(0 0 10px #666666);">
   </div>
   <div style="flex: 1; margin-left: 10px;">
-    <img src="{{ site.baseurl }}/assets/devices/freestanding/bearing-adapter-insert-arrow.png" alt="X-Stage Bearing adapter insert in bearing" style="width: 100%; height: auto;">
+    <img src="{{ site.baseurl }}/assets/devices/portable/bearing-adapter-insert-arrow.png" alt="X-Stage Bearing adapter insert in bearing" style="width: 100%; height: auto;">
   </div>
 </div>
 
@@ -157,20 +159,20 @@ The bearing size adapter is inserted into the bearing unit to adapt the 45mm (1.
 
 One of the floor plates requires a notch added to the inner edge to allow the pole's cables to tunnel under the stage. Stages provided by PoleFX will already have this modification, and individual modified platforms can be provided.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/notch_5.png" alt="Stage Platform Notch">
+<img src="{{ site.baseurl }}/assets/devices/portable/notch_5.png" alt="Stage Platform Notch">
 
 ### Cable Cover
 
 This cover protects the input cable in the exposed section between the notch in the stage plate and the pole.
 
-<img src="{{ site.baseurl }}/assets/devices/freestanding/cover450.png" alt="Cable cover" style="filter: drop-shadow(0 0 10px #3f3f3f);">
+<img src="{{ site.baseurl }}/assets/devices/portable/cover450.png" alt="Cable cover" style="filter: drop-shadow(0 0 10px #3f3f3f);">
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <div style="flex: 1; margin-right: 10px;">
-    <img src="{{ site.baseurl }}/assets/devices/freestanding/exposedcable.png" alt="Exposed cable" style="width: 100%; height: auto;">
+    <img src="{{ site.baseurl }}/assets/devices/portable/exposedcable.png" alt="Exposed cable" style="width: 100%; height: auto;">
   </div>
   <div style="flex: 1; margin-left: 10px;">
-    <img src="{{ site.baseurl }}/assets/devices/freestanding/coveredcable.png" alt="Covered cable" style="width: 100%; height: auto;">
+    <img src="{{ site.baseurl }}/assets/devices/portable/coveredcable.png" alt="Covered cable" style="width: 100%; height: auto;">
   </div>
 </div>
 

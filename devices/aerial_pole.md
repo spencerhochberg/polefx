@@ -11,7 +11,7 @@ nav_order: 3
   <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
     <!-- Static PNG as the base layer -->
     <img 
-      src="{{ site.baseurl }}/assets/devices/aerial/aerial_450.png" 
+      src="{{ site.baseurl }}/assets/devices/aerial/aerial_truss_450.png" 
       alt="Aerial LED Pole" 
       style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
 
@@ -19,7 +19,7 @@ nav_order: 3
     <img 
       src="{{ site.baseurl }}/assets/img/animation7.gif" 
       alt="Animation Overlay" 
-      style="position: absolute; top: 79px; left: calc(50% + -3px); transform: translateX(calc(-50% + 0px)) rotate(-0.98deg); height: 450px; width: auto; pointer-events: none; mix-blend-mode: screen;">
+      style="position: absolute; top: 165px; left: calc(50% + 3px); transform: translateX(calc(-50% + 0px)) rotate(0deg); height: 353px; width: auto; pointer-events: none; mix-blend-mode: screen;">
   </div>
   <div style="flex: 1; min-width: 300px;">
     <ul>
@@ -45,11 +45,16 @@ nav_order: 3
 
 ## Sizing
 
+
+
 <div style="display: flex; justify-content: center; gap: 20px; align-items: flex-end; flex-wrap: wrap;">
-    <img 
-        src="{{ site.baseurl }}/assets/devices/aerial/1pc_aerial_dims.png" 
-        alt="One Piece Aerial Pole Dimensions" 
-        style="max-width: 100%; max-height: 400px; filter: invert(1);">
+    <figure style="text-align: center;">
+        <img 
+            src="{{ site.baseurl }}/assets/devices/aerial/1pc_aerial_dims.png" 
+            alt="One Piece Aerial Pole Dimensions" 
+            style="max-width: 100%; max-height: 400px; filter: invert(1);">
+        <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">Typical Dimensions</figcaption>
+    </figure>
 </div>
 
 LED display height: 84.5"

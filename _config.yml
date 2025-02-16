@@ -13,3 +13,9 @@ aux_links:
 collections:
   docs:
     output: true
+
+
+sass:
+  sass_dir: _sass
+  style: compressed  # optional
+
