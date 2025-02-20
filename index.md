@@ -93,7 +93,7 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 300px;">
     <div>
-      <h3>The PoleFX Player</h3>
+      <h3>The PoleFX Player_</h3>
       <p>A media server that controls the pole animations.</p>
       <p><a href="control/control.html">View Details</a></p>
     </div>
