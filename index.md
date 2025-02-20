@@ -14,7 +14,7 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
   <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="flex: 1; min-width: 300px;">
       <div >
-        <h3>Supported Pole</h3>
+        <h3>Permanent Pole</h3>
         <p>Rigidly mounted bearings on the top and bottom</p>
         <p><a href="devices/permanent_pole.html">View Details</a></p>
       </div>
@@ -24,7 +24,7 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
         <!-- Static PNG as the base layer -->
         <img 
           src="{{ site.baseurl }}/assets/devices/permanent/support_450.png" 
-          alt="Supported LED Dance Pole" 
+          alt="Permanent LED Dance Pole" 
           style="height: 450px; width: auto; filter: drop-shadow(0 0 10px #666666); display: block; margin: 0 auto;">
       
         <!-- GIF overlay with blend mode -->
@@ -93,7 +93,7 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="flex: 1; min-width: 300px;">
     <div>
-      <h3>The PoleFX Player_</h3>
+      <h3>The PoleFX Player</h3>
       <p>A media server that controls the pole animations.</p>
       <p><a href="control/control.html">View Details</a></p>
     </div>
