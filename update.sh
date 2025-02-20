@@ -1,26 +1,38 @@
 #!/bin/bash
-set -e  # Exit immediately if a command exits with a non-zero status
+set -e  # Exit immediately if a command fails
 
-# Build the site locally
+# 1. Ensure you're on main and commit any changes
+git checkout main
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Uncommitted changes detected on main. Committing and pushing now..."
+  git add .
+  git commit -m "Auto commit source changes before deploy at $(date)"
+  git push origin main
+fi
+
+# 2. Build the site locally (on main)
 bundle exec jekyll build
 
-# Switch to the gh-pages branch
+# 3. Copy the built _site folder to a temporary directory
+rm -rf deploy_temp
+cp -r _site deploy_temp
+
+# 4. Switch to the gh-pages branch
 git checkout gh-pages
 
-# Remove existing tracked files (this won't remove the .git directory)
+# 5. Remove all files in gh-pages branch
 git rm -rf .
 
-# Copy the new build files from _site to the root
-cp -r _site/* .
+# 6. Copy the contents from the temporary directory to the current directory
+cp -r deploy_temp/* .
 
-# Stage all changes
+# 7. Remove the temporary directory
+rm -rf deploy_temp
+
+# 8. Stage, commit, and push the changes
 git add .
-
-# Commit the changes with a timestamp
 git commit -m "Deploy update at $(date)"
-
-# Push the changes to GitHub
 git push -u origin gh-pages
 
-# Switch back to your main branch
+# 9. Switch back to main branch
 git checkout main
