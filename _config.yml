@@ -1,7 +1,6 @@
 title: PoleFX Docs
 description: PoleFX Docs
-remote_theme: just-the-docs/just-the-docs@v0.9.0
-# theme: just-the-docs
+theme: just-the-docs
 url: https://spencerhochberg.github.io
 logo: "assets/img/POLEFX_LOGO_w_color_trans_250.png"
 color_scheme: dark
