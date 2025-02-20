@@ -1,10 +1,8 @@
 #!/bin/bash
-set -e  # Exit immediately if any command fails
+set -e  # Exit immediately if a command fails
 
-# Ensure we're on main to commit source changes
+# 1. Ensure you're on main and commit any changes
 git checkout main
-
-# Check for uncommitted changes in main
 if [ -n "$(git status --porcelain)" ]; then
   echo "Uncommitted changes detected on main. Committing and pushing now..."
   git add .
@@ -12,22 +10,29 @@ if [ -n "$(git status --porcelain)" ]; then
   git push origin main
 fi
 
-# Build the site locally
+# 2. Build the site locally (on main)
 bundle exec jekyll build
 
-# Switch to the gh-pages branch
+# 3. Copy the built _site folder to a temporary directory
+rm -rf deploy_temp
+cp -r _site deploy_temp
+
+# 4. Switch to the gh-pages branch
 git checkout gh-pages
 
-# Remove the old built files
+# 5. Remove all files in gh-pages branch
 git rm -rf .
 
-# Copy the new build files from _site to the root
-cp -r _site/* .
+# 6. Copy the contents from the temporary directory to the current directory
+cp -r deploy_temp/* .
 
-# Stage and commit the new build
+# 7. Remove the temporary directory
+rm -rf deploy_temp
+
+# 8. Stage, commit, and push the changes
 git add .
 git commit -m "Deploy update at $(date)"
 git push -u origin gh-pages
 
-# Switch back to main
+# 9. Switch back to main branch
 git checkout main
