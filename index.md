@@ -16,11 +16,11 @@ This guide will help you set up, use, and have optimal fun with your LED poles.
       <div >
         <h3>Supported Pole</h3>
         <p>Rigidly mounted bearings on the top and bottom</p>
-        <p><a href="devices/supported_pole.html">View Details</a></p>
+        <p><a href="devices/permanent_pole.html">View Details</a></p>
       </div>
     </div>
     <div style="flex: 1; min-width: 300px; padding: 10px; position: relative;">
-      <a href="devices/supported_pole.html" style="display: block; position: relative;">
+      <a href="devices/permanent_pole.html" style="display: block; position: relative;">
         <!-- Static PNG as the base layer -->
         <img 
           src="{{ site.baseurl }}/assets/devices/permanent/support_450.png" 
