@@ -75,13 +75,13 @@ The PoleFX portable LED pole is designed to mount in the [X-Stage Lite by X-Pole
     <figure style="text-align: center;">
         <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap; justify-content: center;">
             <img 
-                src="{{ site.baseurl }}/assets/devices/portable/1pc_freestanding_pole_assembled_dims2.png" 
+                src="{{ site.baseurl }}/assets/devices/portable/1pc_freestanding_pole_assembled_dims3.png" 
                 alt="One Piece Freestanding Pole Assembled Dimensions" 
                 style="max-width: 100%; max-height: 400px; filter: invert(1);">
-            <img 
+            <!-- <img 
                 src="{{ site.baseurl }}/assets/devices/portable/1pc_freestanding_pole_dims.png" 
                 alt="One Piece Freestanding Pole Dimensions" 
-                style="max-width: 100%; max-height: 400px; filter: invert(1);">
+                style="max-width: 100%; max-height: 400px; filter: invert(1);"> -->
         </div>
         <figcaption style="margin-top: 8px; font-size: 0.9em; color: #666;">One Piece Pole Dimensions</figcaption>
     </figure>
